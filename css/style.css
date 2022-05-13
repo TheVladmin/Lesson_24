@@ -194,7 +194,6 @@ h6 {
 .shop-page__grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
   grid-template-columns: repeat(5, 1fr);
   gap: 25px 7px;
 }
@@ -362,7 +361,6 @@ h6 {
 
 @media (max-width: 74.99875em) {
   .shop-page__grid {
-    -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -373,14 +371,12 @@ h6 {
 
 @media (max-width: 62.49875em) {
   .shop-page__grid {
-    -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 47.99875em) {
   .shop-page__grid {
-    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -391,7 +387,6 @@ h6 {
 
 @media (max-width: 28.12375em) {
   .shop-page__grid {
-    -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
   }
 
