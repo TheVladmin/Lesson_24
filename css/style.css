@@ -296,7 +296,7 @@ h6 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  font-size: 16;
+  font-size: 16px;
   line-height: 0.75;
 }
 
